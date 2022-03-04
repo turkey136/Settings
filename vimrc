@@ -63,13 +63,15 @@ set visualbell t_vb=
 set noerrorbells
 " 保存するコマンド履歴の数
 set history=5000
+set showcmd
 
 " コード整形とか
 " スペルチェック
 set spelllang+=cjk
 set spell
 " シンタックス
-set syntax=ruby
+set syntax=enable
 
 " help 日本語化
 set helplang=ja,en
+

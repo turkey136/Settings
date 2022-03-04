@@ -8,4 +8,19 @@ ln -s bash_aliases ~/.bash_aliases
 ```
 rm ~/.vimrc
 ln -s vimrc ~/.vimrc
+mv ~/.vim ./vim_original
+cp -rf Settings/vim ~/.vim
+
+
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 ```
+
+### 導入プラグイン
+* nerdtree
+
+*
+
+### コードジャンプ
+```
+sudo apt install ctags
+ctags -R --languages=ruby
