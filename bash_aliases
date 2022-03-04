@@ -1,5 +1,5 @@
 alias vi='vim'
-#alias vim='vim -c :NERDTree'
+alias vim='vim -c :NERDTree'
 
 
 alias ls='ls --color=auto'

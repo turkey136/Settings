@@ -1,6 +1,11 @@
 ## alias反映
 ```
-ln -s ~/Settings/bash_aliases .bash_aliases
+rm ~/.bash_aliases
+ln -s bash_aliases ~/.bash_aliases
 ```
 
 ## vim設定反映
+```
+rm ~/.vimrc
+ln -s vimrc ~/.vimrc
+```
