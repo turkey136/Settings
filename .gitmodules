@@ -7,3 +7,6 @@
 [submodule "vim/pack/vendor/start/vim-nerdtree-tabs"]
 	path = vim/pack/vendor/start/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "vim/pack/vendor/start/ale"]
+	path = vim/pack/vendor/start/ale
+	url = https://github.com/dense-analysis/ale.git
