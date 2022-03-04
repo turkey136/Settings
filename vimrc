@@ -1,8 +1,5 @@
 set textwidth=120
 
-" カラースキーマ
-colorscheme jellybeans
-
 " インデント設定
 "自動インデント
 set autoindent
@@ -77,6 +74,14 @@ set syntax=enable
 
 " help 日本語化
 set helplang=ja,en
+
+" Plagin 関係
+" カラースキーマ
+colorscheme jellybeans
+
+"NERDTree"
+autocmd vimenter * NERDTree
+let g:nerdtree_tabs_open_on_console_startup=1
 
 "indentline"
 let g:indentLine_color_term =239
