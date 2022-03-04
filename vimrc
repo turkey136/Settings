@@ -1,5 +1,8 @@
 set textwidth=120
 
+" カラースキーマ
+colorscheme jellybeans
+
 " インデント設定
 "自動インデント
 set autoindent
@@ -75,3 +78,7 @@ set syntax=enable
 " help 日本語化
 set helplang=ja,en
 
+"indentline"
+let g:indentLine_color_term =239
+let g:indentLine_color_gui = '#708090'
+let g:indentLine_char = '¦'

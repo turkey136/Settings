@@ -13,12 +13,13 @@ cp -rf Settings/vim ~/.vim
 
 
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+vim -u NONE -c "helptags  ~/.vim/pack/vendor/start/indentLint/doc" -c "q"
+
 ```
 
 ### 導入プラグイン
 * nerdtree
-
-*
+* indentLint
 
 ### コードジャンプ
 ```
