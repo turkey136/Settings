@@ -69,31 +69,10 @@ set wildoptions=tagfile
 
 " コード整形とか
 " スペルチェック
-set spelllang+=cjk
-set spell
+set spell spelllang=en_us
 " シンタックス
 set syntax=enable
 
 " help 日本語化
 set helplang=ja,en
 
-" Plagin 関係
-" カラースキーマ
-colorscheme jellybeans
-
-"NERDTree"
-autocmd vimenter * NERDTree
-let g:nerdtree_tabs_open_on_console_startup=1
-
-"indentline"
-let g:indentLine_color_term =239
-let g:indentLine_color_gui = '#708090'
-let g:indentLine_char = '¦'
-
-" ale
-let g:ale_fixers = {'ruby': ['rubocop']}
-let g:ale_sign_error = '>>'
-let g:ale_sign_warning = '--'
-highlight clear ALEErrorSign
-highlight clear ALEWarningSign
-let g:ale_fix_on_save = 1

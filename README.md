@@ -25,3 +25,10 @@ vim -u NONE -c "helptags  ~/.vim/pack/vendor/start/indentLint/doc" -c "q"
 ```
 sudo apt install ctags
 ctags -R --languages=ruby
+
+
+### vim コマンド
+* CTL - & space
+  * 矩形選択範囲をコメントアウト/コメントアウトを外す
+* =
+  * 矩形選択範囲のインデント修正
